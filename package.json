@@ -1,0 +1,31 @@
+{
+  "name": "webcomponent_template",
+  "version": "1.0.0",
+  "description": "A simple template &amp; bit of Webpack for building webcomponentsjs",
+  "scripts": {
+    "start": "webpack serve --open 'google chrome'",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asp55/webcomponent_template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asp55/webcomponent_template/issues"
+  },
+  "homepage": "https://github.com/asp55/webcomponent_template#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "extract-loader": "^5.1.0",
+    "html-loader": "^1.3.2",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "to-string-loader": "^1.1.6",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
